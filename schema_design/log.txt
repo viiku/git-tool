@@ -1,0 +1,31 @@
+&{[] {0xc000206180} <nil> <nil>}93 issues:
+#69449   gazerro encoding/json: Decoder.Token does not return an error f false 
+#5901        rsc encoding/json: allow per-Encoder/per-Decoder registrati false 
+#6647    btracey x/pkgsite: display type kind of each named type false 
+#48298     dsnet encoding/json: add Decoder.DisallowDuplicateFields false 
+#56733 rolandsho encoding/json: add (*Decoder).SetLimit false 
+#58649 nabokihms encoding/json: show nested fields path if DisallowUnkno false 
+#42571     dsnet encoding/json: clarify Decoder.InputOffset semantics false 
+#11046     kurin encoding/json: Decoder internally buffers full input false 
+#26946    deuill encoding/json: clarify what happens when unmarshaling i false 
+#67525 mateusz83 encoding/json: don't silently ignore errors from (*Deco false 
+#36225     dsnet encoding/json: the Decoder.Decode API lends itself to m false 
+#43716 ggaaooppe encoding/json: increment byte counter when using decode false 
+#29035    jaswdr proposal: encoding/json: add error var to compare  the  false 
+#61627    nabice x/tools/gopls: feature: CLI syntax for renaming by iden false 
+#40128  rogpeppe proposal: encoding/json: garbage-free reading of tokens false 
+#32779       rsc encoding/json: memoize strings during decode false 
+#40127  rogpeppe encoding/json: add Encoder.EncodeToken method false 
+#64847 zephyrtro encoding/json: UnmarshalJSON methods of embedded fields false 
+#34543  maxatome encoding/json: Unmarshal & json.(*Decoder).Token report false 
+#40982   Segflow encoding/json: use different error type for unknown fie false 
+#65691  Merovius encoding/xml: Decoder does not reject xml-ProcInst prec false 
+#14750 cyberphon encoding/json: parser ignores the case of member names false 
+#16212 josharian encoding/json: do all reflect work before decoding false 
+#59053   joerdav proposal: encoding/json: add a generic Decode function false 
+#41144 alvaroale encoding/json: Unmarshaler breaks DisallowUnknownFields false 
+#22752  buyology proposal: encoding/json: add access to the underlying d false 
+#56332    gansvv encoding/json: clearer error message for boolean like p false 
+#28143    arp242 proposal: encoding/json: add "readonly" tag false 
+#43513 Alexander encoding/json: add line number to SyntaxError false 
+#33835     Qhesz encoding/json: unmarshalling null into non-nullable gol false 
