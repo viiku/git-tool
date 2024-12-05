@@ -1,32 +1,37 @@
-[repo:golang/go is:open json decoder]repo%3Agolang%2Fgo+is%3Aopen+json+decoder
-https://api.github.com/search/issues?q=repo%3Agolang%2Fgo+is%3Aopen+json+decoder93 issues:
-891354
-104030
-3680859
-6354026
-5080674
-32434187
-6354026
-90267
-1138950
-19653795
-6354026
-4769989
-6409113
-2269130
-66491
-104030
-66491
-1428115
-262880
-2049730
-720787
-8044211
-67496
-19927761
-6496100
-5368302
-6739225
-1032692
-697976
-5576331
+93 issues:
+
+Issues less than a month old:
+
+Issues less than a Year old:
+#69449   gazerro encoding/json: Decoder.Token does not return an error f 2024-09-13 15:50:14
+#67525 mateusz83 encoding/json: don't silently ignore errors from (*Deco 2024-05-20 14:10:55
+#64847 zephyrtro encoding/json: UnmarshalJSON methods of embedded fields 2023-12-22 17:08:52
+#65691  Merovius encoding/xml: Decoder does not reject xml-ProcInst prec 2024-02-13 10:33:20
+
+Issues more than a Year old:
+#5901        rsc encoding/json: allow per-Encoder/per-Decoder registrati 2013-07-17 16:39:15
+#6647    btracey x/pkgsite: display type kind of each named type 2013-10-23 17:19:48
+#48298     dsnet encoding/json: add Decoder.DisallowDuplicateFields 2021-09-09 19:39:33
+#56733 rolandsho encoding/json: add (*Decoder).SetLimit 2022-11-14 18:51:33
+#58649 nabokihms encoding/json: show nested fields path if DisallowUnkno 2023-02-22 23:20:53
+#42571     dsnet encoding/json: clarify Decoder.InputOffset semantics 2020-11-13 00:09:09
+#11046     kurin encoding/json: Decoder internally buffers full input 2015-06-03 19:25:08
+#26946    deuill encoding/json: clarify what happens when unmarshaling i 2018-08-12 18:19:01
+#36225     dsnet encoding/json: the Decoder.Decode API lends itself to m 2019-12-19 22:26:12
+#43716 ggaaooppe encoding/json: increment byte counter when using decode 2021-01-15 08:58:39
+#29035    jaswdr proposal: encoding/json: add error var to compare  the  2018-11-30 11:21:31
+#61627    nabice x/tools/gopls: feature: CLI syntax for renaming by iden 2023-07-28 06:40:34
+#40128  rogpeppe proposal: encoding/json: garbage-free reading of tokens 2020-07-09 07:58:19
+#32779       rsc encoding/json: memoize strings during decode 2019-06-25 21:08:30
+#40127  rogpeppe encoding/json: add Encoder.EncodeToken method 2020-07-09 07:52:47
+#34543  maxatome encoding/json: Unmarshal & json.(*Decoder).Token report 2019-09-25 22:13:24
+#40982   Segflow encoding/json: use different error type for unknown fie 2020-08-22 21:07:03
+#14750 cyberphon encoding/json: parser ignores the case of member names 2016-03-10 13:04:44
+#16212 josharian encoding/json: do all reflect work before decoding 2016-06-29 16:07:36
+#59053   joerdav proposal: encoding/json: add a generic Decode function 2023-03-15 16:20:31
+#41144 alvaroale encoding/json: Unmarshaler breaks DisallowUnknownFields 2020-08-31 14:27:19
+#22752  buyology proposal: encoding/json: add access to the underlying d 2017-11-15 23:46:13
+#56332    gansvv encoding/json: clearer error message for boolean like p 2022-10-19 19:30:20
+#28143    arp242 proposal: encoding/json: add "readonly" tag 2018-10-11 07:08:25
+#43513 Alexander encoding/json: add line number to SyntaxError 2021-01-05 10:59:27
+#33835     Qhesz encoding/json: unmarshalling null into non-nullable gol 2019-08-26 10:27:12
