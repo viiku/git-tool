@@ -37,7 +37,10 @@ type User struct {
 
 // SearchIssues queries the GitHub issue tracker.
 func SearchIssues(terms []string) (*IssuesSearchResult, error) {
+	// fmt.Print(terms)
 	q := url.QueryEscape(strings.Join(terms, " "))
+	// fmt.Println(q)
+	// fmt.Print(IssuesURL + "?q=" + q)
 	resp, err := http.Get(IssuesURL + "?q=" + q)
 	if err != nil {
 		return nil, err
@@ -47,7 +50,6 @@ func SearchIssues(terms []string) (*IssuesSearchResult, error) {
 		resp.Body.Close()
 		return nil, fmt.Errorf("search query failed: %s", resp.Status)
 	}
-	fmt.Print(resp.Body)
 	var result IssuesSearchResult
 
 	if err := json.NewDecoder(resp.Body).Decode(&result); err != nil {
